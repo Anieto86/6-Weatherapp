@@ -1,0 +1,150 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style6.css">
+
+
+
+
+    <title>Weather New index</title>
+</head>
+
+<body>
+    <h1 class="title">Weather Deashoard</h1>
+    <div class="container my-container">
+        <div class="row my-row">
+            <div class="col-4">
+                <div class="form-inline">
+                    <input class="form-control mr-sm-2 " id="search-input" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 btn-search" type="submit">Search</button>
+                </div>
+                <div class="list-group-city" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action " id="btn-Austin" data-toggle="list"
+                        href="#list-home" role="tab" aria-controls="home">Austin</a>
+                    <a class="list-group-item list-group-item-action" id="btn-chicago" data-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="profile">Chicago</a>
+                    <a class="list-group-item list-group-item-action" id="btn-new-york" data-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="messages">New York</a>
+                    <a class="list-group-item list-group-item-action " id="btn-orlando" data-toggle="list"
+                        href="#list-home" role="tab" aria-controls="home">Orlando</a>
+                    <a class="list-group-item list-group-item-action" id="btn-san-francisco" data-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="profile">San Francisco</a>
+                    <a class="list-group-item list-group-item-action" id="btn-seattle" data-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="messages">Seattle</a>
+                    <a class="list-group-item list-group-item-action" id="btn-denver" data-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="settings">Denver</a>
+                    <a class="list-group-item list-group-item-action" id="btn-atlanta" data-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="settings">Atlanta</a>
+                </div>
+            </div>
+            <div class="container box0">
+                <div class="container box1-1">
+                    <h1 class="city"></h1>
+                    <div class="weather-icon-big">
+                        <img src="icons/unknown.png" id="weather-icons" alt="">
+                    </div>
+                    <div class="temperature-value-big">
+                        <p><span></span></p>
+                    </div>
+                    <div class="wind-big">
+                        <p></p>
+                    </div>
+                    <div class="humidity-big">
+                        <p></p>
+                    </div>
+                    <div class="UV-big">
+                        <p></p>
+                    </div>
+                    <p class="lead"></p>
+                    <hr class="my-4">
+                </div>
+                <div class="container box1">
+                    <div class="weather-container">
+                        <div class="date-1">
+                            <p></p>
+                        </div>
+                            <div class="weather-icon-1">
+                            <img src="icons/unknown.png" id="weather-icons" alt="">
+                        </div>
+                        <div class="temperature-value-1">
+                            <p><span></span></p>
+                        </div>
+                        <div class="humidity-1">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="weather-container">
+                        <div class="date-2">
+                            <p></p>
+                        </div>
+                            <div class="weather-icon-2">
+                            <img src="icons/unknown.png" id="weather-icons" alt="">
+                        </div>
+                        <div class="temperature-value-2">
+                            <p><span></span></p>
+                        </div>
+                        <div class="humidity-2">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="weather-container">
+                        <div class="date-3">
+                            <p></p>
+                        </div>
+                            <div class="weather-icon-3">
+                            <img src="icons/unknown.png" id="weather-icons" alt="">
+                        </div>
+                        <div class="temperature-value-3">
+                            <p><span></span></p>
+                        </div>
+                        <div class="humidity-3">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="weather-container">
+                        <div class="date-4">
+                            <p></p>
+                        </div>
+                            <div class="weather-icon-4">
+                            <img src="icons/unknown.png" id="weather-icons" alt="">
+                        </div>
+                        <div class="temperature-value-4">
+                            <p><span></span></p>
+                        </div>
+                        <div class="humidity-4">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="weather-container">
+                        <div class="date-5">
+                            <p></p>
+                        </div>
+                            <div class="weather-icon-5">
+                            <img src="icons/unknown.png" id="weather-icons" alt="">
+                        </div>
+                        <div class="temperature-value-5">
+                            <p><span></span></p>
+                        </div>
+                        <div class="humidity-5">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="Weather6.js"></script>
+</body>
+
+</html>
